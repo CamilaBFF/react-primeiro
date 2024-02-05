@@ -1,13 +1,16 @@
 import './App.css'
 import Header from './components/Header/Header';
-import TelaInicial from './components/TelaInicial/TelaInicial';
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
 
  function App() {
   return (
 
       <div className="App">
         <Header/>
-        <TelaInicial/>
+        <Main/>
+        <Footer/>
+
       </div>
   );
 }
